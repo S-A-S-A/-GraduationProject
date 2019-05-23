@@ -1,0 +1,199 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+html, body {
+	width: 100%;
+	height: 100%;
+	background: #eff3f6;
+}
+
+.title {
+	background: #e3e8ee;
+	color: #646987;
+	padding: 10px 20px;
+}
+
+.list {
+	text-align: center;
+	width: 100%;
+	position: relative;
+	padding: 30px;
+}
+
+.title-tr {
+	background: #e3e8ee;
+	color: #646987;
+}
+
+.title-tr td {
+	padding: 5px 0px;
+}
+
+.search-input {
+	width: 30%;
+	height: 30px;
+	padding: 2px;
+	margin-bottom: 5px;
+	border: 1px solid gray;
+}
+
+#search-button {
+	border: none;
+	width: 5%;
+	height: 25px;
+	background: yellowgreen;
+}
+
+#add {
+	position:fixed;
+	top:100px;
+	left:0px;
+	border: none;
+	width: 5%;
+	height: 25px;
+	background: cadetblue;
+}
+
+.value-tr {
+	background: white;
+	color: #B3BCC5;
+}
+
+.value-tr td {
+	padding: 5px 0px;
+}
+
+.value-tr:hover {
+	color: white;
+	background: #646987;
+}
+
+.value-botton {
+	width: 20%;
+}
+
+.update, .delete {
+	border: none;
+	width: 30%;
+	padding: 5px 0px;
+	color: white;
+}
+
+.update {
+	background: cornflowerblue;
+}
+
+.delete {
+	background: rgb(220, 140, 151);
+}
+
+.box {
+	max-width: 45%;
+	height: 80%;
+	background: whitesmoke;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	box-shadow: 0 0 100px #333333;
+	display: none;
+	z-index: 99;
+	border-radius: 4px;
+}
+
+.box-shadow {
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.3);
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	display: none;
+	/*  */
+	z-index: 98;
+}
+
+.box-th {
+	width: 70%;
+	margin-top: 4%;
+	margin-left: 15%;
+	height: 40px;
+	background: #e3e8ee;
+}
+
+.box-th p {
+	width: 25%;
+	height: 100%;
+	color: cornflowerblue;
+	font-size: 13px;
+	font-weight: 600;
+	text-align: center;
+	line-height: 40px;
+	float: left;
+}
+
+.box-th input {
+	border: none;
+	width: 75%;
+	height: 100%;
+	outline: none;
+	float: left;
+	text-align: center;
+	background: white;
+}
+/* 隐藏 ID的P标签和input：隐藏传值 */
+#id-p {
+	display: none;
+}
+
+#id {
+	display: none;
+}
+
+.submit {
+	width: 70%;
+	height: 40px;
+	margin-top: 30px;
+	margin-left: 15%;
+	border: none;
+	background: rgb(220, 140, 151);
+	margin-top: 20px;
+	color: white;
+}
+
+.update_submit, .add_submit {
+	background: cornflowerblue;
+	border: none;
+	margin-top: 30px;
+	color: white;
+	font-size: 13px;
+}
+
+.add_submit {
+	background: rgb(220, 140, 151);
+}
+
+.close {
+	float: right;
+	border: none;
+	font-size: 12px;
+	width: 60px;
+	background: yellowgreen;
+	padding: 3px;
+}
+
+.yu{
+	width:60px;
+	height:50px;
+}
+
+.pswd{
+	display:none;
+}
